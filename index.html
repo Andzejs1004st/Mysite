@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SA Holding SIA</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Times New Roman", serif;
+            background-color: #8B0000;
+            color: white;
+            font-size: 20px;
+        }
+
+        section {
+            padding: 80px 10%;
+        }
+
+        h1, h2 {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            font-size: 56px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid white;
+            display: inline-block;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Galvenais ekrāns */
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+            url('https://images.unsplash.com/photo-1676277757250-fa58fabe53d9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1175');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero p {
+            max-width: 800px;
+            font-size: 22px;
+        }
+
+        /* Par mums */
+        .about {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .about img {
+            width: 45%;
+            border-radius: 10px;
+        }
+
+        /* Servisi */
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .service {
+            background-color: #B22222;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        /* Priekšrocības */
+        .advantages {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .advantage {
+            flex: 1;
+            background-color: #A52A2A;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        /* Process */
+        .process {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .step {
+            flex: 1;
+            background-color: #B22222;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        /* Kontaktforma */
+        .contact-form {
+            background-color: #A52A2A;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* Kontakti */
+        .contacts {
+            background-color: #800000;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Galvenais ekrāns -->
+    <section class="hero">
+        <h1><strong>SA Holding SIA</strong></h1>
+        <p>Mēs esam konsultāciju un tehnoloģiju uzņēmums, kas palīdz uzņēmumiem pieņemt gudrākus stratēģiskus lēmumus, optimizēt procesus un attīstīt digitālās iespējas. Mūsu mērķis — radīt ilgtspējīgu izaugsmi caur skaidru analīzi, profesionālu vadību un tehnoloģisku kompetenci.</p>
+    </section>
+
+    <!-- Par mums -->
+    <section>
+        <h2>Mūsu stāsts un pieeja</h2>
+        <div class="about">
+            <div>
+                <p>SA Holding SIA ir dinamiska komanda ar plašu pieredzi uzņēmējdarbības vadības, finanšu un IT atbalsta jomās. Mēs sadarbojamies ar uzņēmumiem, kuri vēlas pilnveidot savas darbības struktūras un efektivitāti.  
+                Mūsu eksperti palīdz izstrādāt personalizētus risinājumus, kas balstīti uz reāliem datiem un pierādītu praksi.  
+                Mēs ticam, ka veiksmīga sadarbība sākas ar sapratni un atklātību, un tieši tāpēc katru projektu īstenojam ar maksimālu iesaisti un caurspīdīgumu.</p>
+            </div>
+            <img src="https://images.unsplash.com/photo-1580894732930-0babd100d356?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fG9mZmljZSUyMHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" alt="Par mums">
+        </div>
+    </section>
+
+    <!-- Servisi -->
+    <section>
+        <h2>Mūsu pakalpojumi</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Vadības konsultācijas</h3>
+                <p>Mēs palīdzam uzņēmumiem noteikt skaidrus mērķus, pārskatīt stratēģijas un ieviest efektīvas vadības metodes. Mūsu konsultanti piedāvā risinājumus, kas balstīti uz datu analīzi un nozares labāko praksi.</p>
+            </div>
+            <div class="service">
+                <h3>Biznesa attīstības konsultācijas</h3>
+                <p>Mēs palīdzam identificēt jaunas tirgus iespējas, strukturēt investīciju plānus un stiprināt uzņēmuma konkurētspēju. Katrs mūsu ieteikums ir vērsts uz praktisku rezultātu un reālu izaugsmi.</p>
+            </div>
+            <div class="service">
+                <h3>IT atbalsts un digitalizācija</h3>
+                <p>Piedāvājam pilna cikla IT atbalstu — no infrastruktūras uzturēšanas līdz drošības un automatizācijas risinājumiem. Mūsu IT speciālisti nodrošina, lai tehnoloģijas strādātu jūsu biznesa labā, nevis pretēji.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Priekšrocības -->
+    <section>
+        <h2>Kāpēc izvēlēties mūs</h2>
+        <div class="advantages">
+            <div class="advantage">
+                <h3>Stratēģisks skatījums</h3>
+                <p>Mēs redzam uzņēmuma potenciālu kopējā tirgus kontekstā, ne tikai atsevišķos rādītājos. Tas ļauj piedāvāt risinājumus ar ilgtermiņa ietekmi.</p>
+            </div>
+            <div class="advantage">
+                <h3>Elastība un pielāgošanās</h3>
+                <p>Katra uzņēmuma situācija ir unikāla — tāpēc pielāgojam savu pieeju jūsu specifiskajām vajadzībām un tirgus apstākļiem.</p>
+            </div>
+            <div class="advantage">
+                <h3>Profesionāla komanda</h3>
+                <p>Mūsu eksperti ir strādājuši gan ar jaunuzņēmumiem, gan ar starptautiskām korporācijām, nodrošinot praktisku pieredzi un augstu kvalitāti.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section>
+        <h2>Kā mēs strādājam</h2>
+        <div class="process">
+            <div class="step">
+                <h3>1. Situācijas analīze</h3>
+                <p>Mēs sākam ar detalizētu uzņēmuma un tirgus analīzi, lai noteiktu stiprās un vājās puses, kā arī iespējas attīstībai.</p>
+            </div>
+            <div class="step">
+                <h3>2. Stratēģijas izstrāde</h3>
+                <p>Balstoties uz analīzi, izstrādājam konkrētu rīcības plānu ar mērķiem, termiņiem un mērāmiem rezultātiem.</p>
+            </div>
+            <div class="step">
+                <h3>3. Ieviešana un atbalsts</h3>
+                <p>Mēs palīdzam ieviest plānu praksē, nodrošinot atbalstu visā procesa laikā un izvērtējot rezultātus kopā ar klientu.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontaktforma -->
+    <section>
+        <h2>Sazinieties ar mums</h2>
+        <div class="contact-form">
+            <p>Vai jums ir jautājumi par mūsu pakalpojumiem? Aizpildiet formu un mēs ar jums sazināsimies tuvākajā laikā.</p>
+            <p>Mēs vēlamies saprast jūsu mērķus un atrast vispiemērotāko risinājumu tieši jūsu uzņēmumam.</p>
+        </div>
+    </section>
+
+    <!-- Kontakti -->
+    <section class="contacts">
+        <h2>Sazinieties tieši</h2>
+        <p>Rakstiet mums uz e-pastu: <a href="mailto:office@saholding.pro">office@saholding.pro</a></p>
+        <p>Adrese: 14 - 9 Sila iela, Iecava, Bauskas novads, LV-3913</p>
+        <br>
+        <p>Mēs ticam sadarbībai, kas veido vērtību — jūsu panākumi ir arī mūsu mērķis.</p>
+        <p>Atļaujiet mums palīdzēt jūsu uzņēmumam augt un sasniegt vairāk!</p>
+    </section>
+
+</body>
+</html>
